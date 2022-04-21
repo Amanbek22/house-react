@@ -20,7 +20,7 @@ export const Main = () => {
 
       <div className='mt-5 row'>
         {
-          houses.map((item) => <Card id={item.id} title={item.title} />)
+          houses.map((item) => <Card img={item.image} id={item.id} title={item.title} />)
         }
       </div>
 
