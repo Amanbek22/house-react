@@ -7,12 +7,10 @@ import CreateAdd from './pages/createAdd/CreateAdd.jsx';
 import DetailCard from './pages/detailCard/DetailCard.jsx';
 
 function App() {
-
   return (
     <BrowserRouter>
       <div className="App">
         <Header />
-
         <Routes>
           <Route path="/" element={<Main />} />
           <Route path="/login" element={<Login />} />
